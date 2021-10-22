@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
+
+body {
+    font-family: 'Trocchi', sans-serif;
+    background-color: #C2B5DD;
+    text-decoration: none;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background: #cc2b5e; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cc2b5e;  
+    background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  
+    background: linear-gradient(to right, #753a88, #cc2b5e); 
+    border-radius: 7px;
+
+}
+
+header#cabecalho {
+    height: 4rem;
+    background: url("../_images/pluto-92.png") no-repeat 8rem 2rem;
+    background-size: 2rem 2rem;
+    display: flex;
+    width: 80%;
+    margin-bottom: 3rem;
+}
+
+header#cabecalho h1{
+    margin-left: 11rem;
+    margin-top: 2.2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+nav#menu {
+    display: block;
+    width: 20rem;
+    
+}
+nav#menu ul {
+    list-style: none;
+    position: absolute;
+    left: 28rem;
+    justify-content: space-between;
+    top: 15px;
+    
+}
+
+nav#menu li {
+    transition: all .2s ease-in;
+    display: inline-block;
+    font-size: 15px;
+    padding: .5rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+nav#menu li:hover{
+    background-color: #eccaeb;
+    border-radius: 10px;
+    transition: all .2s ease-out ;
+}
+
+nav#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+
+div.btn-login {
+    color: white;
+    position: absolute;
+    width: 5%;
+    left: 89%;
+    top:1.5rem;
+    background: #D98FB8;
+    border-radius: 8px;
+    font-size: .85rem;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    transition: all .2s ease-in;
+    text-align: center;
+}
+
+
+div.btn-login:hover {
+    background-color: #eccaeb;
+    color: black;
+    border-radius: 10px;
+    transition: .2s ease-out ;
+}
+
+main {
+    background: rgba(255,255,255,.4);
+    border-radius: 12px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 0rem 4rem 2rem 4rem;
+    margin-bottom: 4rem;
+}
+main div#texto{
+    margin-right: 3rem;
+}
+main div#texto h1{
+    font-size: 3rem;
+    margin-top: 5rem;
+    width: 350px;
+}
+
+main div#texto p{
+    font-size: 1.2rem;
+    width: 420px;
+    text-align: left;
+}
+
+main div#midia-principal img{
+    margin-left: 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+div.btn-inscreva-se {
+    margin-top: 3rem;
+    color: #000000;
+    font-size: 1.4rem;
+    width: 40%;
+    padding: 1rem;
+    text-align: center;
+    background: #F2AEC1;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4 ease-in ;
+}
+
+div.btn-inscreva-se:hover {
+    background-color: #f19fed;
+    color: white;
+    border-radius: 10px;
+    transition: all .4s ease-out ;
+}
